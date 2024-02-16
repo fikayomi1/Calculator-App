@@ -1,0 +1,32 @@
+.Btm-Component{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    font-style: cursive;
+    border: 2px solid rgb(169, 159, 159);
+    border-radius: 5px;
+    padding: 2%;
+}
+.Btm-Component input{
+    border-radius: 6px;
+    border: 2px solid rgb(20, 20, 20);
+    padding: 15% 3%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: bolder;
+}
+
+#operator1{
+    color: rgb(205, 204, 204);
+    background-color: rgb(217, 136, 14);
+
+}
+
+#operator{
+    color: rgb(205, 204, 204);
+    background-color: rgb(6, 6, 6);
+}
+.Btm-Component input:hover{
+    opacity: 0.4;
+}
